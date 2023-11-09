@@ -6,7 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#80F6F9FB"
-    tools:context=".MainActivity">
+    tools:context=".WordyActivity">
+
+    <Button
+        android:id="@+id/submit_button"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="96dp"
+        android:text="Submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv27" />
 
     <TextView
         android:id="@+id/tv28"
@@ -341,5 +352,16 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="154dp"
         tools:layout_editor_absoluteY="29dp" />
+
+    <Button
+        android:id="@+id/addWord_button"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="43dp"
+        android:text="Add Word"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/tv30" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
