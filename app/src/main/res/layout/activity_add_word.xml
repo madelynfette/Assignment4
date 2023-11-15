@@ -13,7 +13,6 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="136dp"
         android:ems="10"
-        android:hint="Add a word to the database"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,13 +29,25 @@
         app:layout_constraintTop_toBottomOf="@+id/addWordInput" />
 
     <Button
-        android:id="@+id/playWordy_button"
+        android:id="@+id/cancel_button"
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="20dp"
-        android:text="Play Wordy"
+        android:text="Cancel"
         app:layout_constraintStart_toEndOf="@+id/addDB_button"
         app:layout_constraintTop_toBottomOf="@+id/addWordInput" />
+
+    <TextView
+        android:id="@+id/add_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="95dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Add a word to the database"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
